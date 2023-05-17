@@ -7,7 +7,7 @@
    display: inline-block; 
    width: 150px;
    height: 30px;
-   border-color: mediumseagreen;
+   border: 2px solid aquamarine;
    background-color: transparent;
    color:rgb(82, 184, 184);
    text-align: center;
