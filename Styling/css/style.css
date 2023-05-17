@@ -1,0 +1,35 @@
+h1{
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-style:normal;
+    text-align: left;
+    font-weight:bold;
+}
+span{
+    color: aqua;
+}
+h2{
+    font-family:monospace;
+    background-color: rgb(139, 6, 139);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    font-family: monospace;
+    background-color: rgba(0, 102, 255, 0.26);
+    color:black;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    text-align: right;
+    text-decoration:underline;
+    font-weight: lighter;
+}
+
+
