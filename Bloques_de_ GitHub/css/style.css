@@ -1,0 +1,53 @@
+.container{
+   width: 920px;
+   height: 900px;
+   background-color: rgba(101, 199, 45, 0.808);
+   margin: 0px auto;
+   
+}
+h1{
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+}
+/* Configura las imágenes para que todas tengan un tamaño uniforme. */
+img.octocat {
+   height: 200px;
+}
+
+
+/* Justificar contenido: espaciado alrededor*/
+
+#block_blue {
+   width: 900px;
+   height: 250px;
+   margin: 10px;
+   background-color: rgb(0, 195, 255);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+/* Justificar contenido: espaciado uniforme*/
+#block_pinck {
+   width: 900px;
+   height: 250px;
+   margin: 10px;
+   background-color: rgba(255, 0, 212, 0.507);
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+/* Justificar contenido: espaciado uniforme*/
+#block_white {
+   width: 900px;
+   height: 250px;
+   margin: 10px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.text-center {
+   text-align: center;
+}
