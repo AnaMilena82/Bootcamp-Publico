@@ -1,0 +1,170 @@
+
+	body{
+		font-family: 'Balsamiq Sans', cursive;
+		margin: 0;
+		
+	}
+	
+.nav{
+	height: 50px;
+	padding:15px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+ }
+ 
+ .nav-title{
+	color: white;
+	
+ }
+ 
+ .nav-links{
+	color: white;
+	display: flex;
+	align-items: center;
+	list-style:none;
+	justify-content: space-between;
+	
+ }
+ 
+ .btn{
+	/* height: 40px;
+	width: 200px; */
+	border: 3px solid black;
+	background-color: rgba(10, 146, 224, 0.925);
+	color:white;
+	text-align: center;
+	font-size: 15px;
+	box-shadow: 8px 5px 1px black;
+	
+ }
+ 
+ /* elimina la linea del hipervinculo */
+ .menu{
+	text-decoration: none;
+	margin: 15px;
+ }
+ 
+ 
+
+ .contenidototal{
+	display: flex;
+	padding:10px;
+	margin: 30px;
+	margin-left: 100px;
+
+}
+ .contenidoizquierdo{
+	display: inline-block;
+	margin-right: 30px;	
+ }
+ .contenidoderecho{
+	display: inline-block;
+}
+	.tarjetausuario{
+		
+		flex-direction: column;
+		width: 450px;
+		border: 2px solid gray;
+		margin-bottom: 30px;
+	}
+
+	#barrausuario{
+		background-color: aqua;
+		position: relative;
+		height: 80px;
+	}
+	.imagenusuario{
+		width: 80px;
+		position: absolute;
+		left: 10px;
+		top: 40px;
+		border: 2px solid gray;
+		border-radius: 50%;
+		padding: 2px;
+	}
+	.main{
+		padding: 10px;
+	}
+.nombreusuario{
+	margin-top: 50px;
+}
+.ubicacion, .edicion{
+	display: flex;
+	flex-direction: row;
+}	
+.icono{
+	width: 20px;
+}
+.ciudad, .editarperfil{
+	margin-left: 10px;
+} 
+.ubicacion{
+	margin-bottom: 15px;
+}
+.edicion{
+	margin-top: 15px;
+	margin-bottom: 15px;;
+}
+.tarjetaeducacion{
+	flex-direction: column;
+	width: 450px;
+	border: 2px solid gray;
+	margin-bottom: 30px;
+}
+.barragris{
+	background-color: black;
+	position: relative;
+	height: 50px;
+	color: aliceblue;
+	font-size: 10px;
+	padding: 15px;
+}
+.fuentegris{
+	color: gray;
+}
+.tarjetaconeccion{
+	
+	width: 250px;
+	height: 150px;
+	border: 2px solid gray;
+	margin-bottom: 30px;
+	
+}
+
+.listanombres{
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+	justify-content: space-around
+} 
+span{
+	padding: 5px;
+	position: relative;
+	border: 2px solid white;
+	border-radius: 50%;
+	background-color: rgba(128, 128, 128, 0.874);
+	color: black;
+}
+.tarjetaYOURconeccion{
+	flex-direction: column;
+	width: 250px;
+	border: 2px solid gray;
+	
+}
+.mainYOURconeccion{
+	padding: 10px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+
+}
+.view{
+	width: 245px;
+	height: 50px;
+	border: 2px solid gray;
+	display: flex;	
+	align-items: center;
+	padding-left: 5px;
+}
